@@ -13,8 +13,9 @@ def assign_rooms(list)
   list.each_with_index |name, i| do
     room = i + 1
     new_list = []
-    new_list << "Hello, name! You'll be assigned to room #{room}!"
+    new_list << "Hello, #{name}! You'll be assigned to room #{room}!"
   end
   return new_list
 end
 
+def printer
