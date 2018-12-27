@@ -17,3 +17,4 @@ def assign_rooms(list)
   end
   return new_list
 end
+
