@@ -5,14 +5,14 @@ end
 
 def batch_badge_creator(arr)
   new_arr = []
-  arr.each |name| do
+  arr.each do |name|
     new_arr << badge_maker(name)
   end
   return new_arr
 end
 
 def assign_rooms(list)
-  list.each_with_index |name, i| do
+  list.each_with_index do |name, i|
     room = i + 1
     new_list = []
     new_list << "Hello, #{name}! You'll be assigned to room #{room}!"
