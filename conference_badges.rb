@@ -20,7 +20,7 @@ def assign_rooms(list)
   return new_list
 end
 
-def printer
+def printer(attendees)
  batch_badge_creator(arr).each do |line|
    puts line
  end
